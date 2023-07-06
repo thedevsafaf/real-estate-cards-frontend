@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background: #111;
+}
+
+#main { 
+    width: 100%;
+    min-height: 100vh;  
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+#main .container { 
+    background: #EDF2F6;
+    padding: 100px 240px;
+    display: flex;
+}
+
+/* first card */
+
+#main .container .first-card { 
+    border-radius: 10px;
+    background: #fff;
+    margin: 0 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+#main .container .first-card .top { 
+
+}
+
+#main .container .first-card .top img { 
+    max-width: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#main .container .first-card .bottom { 
+
+}
+
+#main .container .first-card .bottom .description { 
+    padding: 8px 8px;
+
+}
+
+#main .container .first-card .bottom .description h6 { 
+    color: #424647;
+}
+
+#main .container .first-card .bottom .description h3 { 
+
+}
+
+#main .container .first-card .bottom .description p { 
+    font-size: 12px;
+}
+
+#main .container .first-card .bottom .features { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .container .first-card .bottom .features .icon img{
+    max-width: 20px;
+}
+
+#main .container .first-card .bottom .features span { 
+    font-size: 11px;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+#main .container .first-card .bottom .agent { 
+    background: #F8F9FB;
+    padding: 8px 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#main .container .first-card .bottom .agent h5{
+    margin-bottom: 4px;
+}
+
+#main .container .first-card .bottom .agent .agent-details{
+    display: flex;
+}
+
+#main .container .first-card .bottom .agent .agent-details img{
+    max-width: 44px;
+    max-height: 44px;
+    border-radius: 50%;
+}
+
+#main .container .first-card .bottom .agent .agent-details .description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+}
+
+#main .container .first-card .bottom .agent .agent-details .description h4 { 
+
+}
+
+#main .container .first-card .bottom .agent .agent-details .description p { 
+
+}
+
+/* first card ends */
+
+/* second card */
+
+#main .container .second-card { 
+    border-radius: 10px;
+    background: #fff;
+    margin: 0 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+
+}
+
+#main .container .second-card .top { 
+
+}
+
+#main .container .second-card .top img { 
+    max-width: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#main .container .second-card .bottom { 
+
+}
+
+#main .container .second-card .bottom .description { 
+    padding: 8px 8px;
+
+}
+
+#main .container .second-card .bottom .description h6 { 
+    color: #424647;
+}
+
+#main .container .second-card .bottom .description h3 { 
+
+}
+
+#main .container .second-card .bottom .description p { 
+    font-size: 12px;
+}
+
+#main .container .second-card .bottom .features { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .container .second-card .bottom .features .icon img{
+    max-width: 20px;
+}
+
+#main .container .second-card .bottom .features span { 
+    font-size: 11px;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+#main .container .second-card .bottom .agent { 
+    background: #F8F9FB;
+    padding: 8px 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#main .container .second-card .bottom .agent h5{
+    margin-bottom: 4px;
+}
+
+#main .container .second-card .bottom .agent .agent-details{
+    display: flex;
+}
+
+#main .container .second-card .bottom .agent .agent-details img{
+    max-width: 44px;
+    max-height: 44px;
+    border-radius: 50%;
+}
+
+#main .container .second-card .bottom .agent .agent-details .description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+}
+
+#main .container .second-card .bottom .agent .agent-details .description h4 { 
+
+}
+
+#main .container .second-card .bottom .agent .agent-details .description p { 
+
+}
+
+/* second card ends */
+
+/* third card */
+
+#main .container .third-card { 
+    border-radius: 10px;
+    background: #fff;
+    margin: 0 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+
+}
+
+#main .container .third-card .top { 
+
+}
+
+#main .container .third-card .top img { 
+    max-width: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#main .container .third-card .bottom { 
+
+}
+
+#main .container .third-card .bottom .description { 
+    padding: 8px 8px;
+
+}
+
+#main .container .third-card .bottom .description h6 { 
+    color: #424647;
+}
+
+#main .container .third-card .bottom .description h3 { 
+
+}
+
+#main .container .third-card .bottom .description p { 
+    font-size: 12px;
+}
+
+#main .container .third-card .bottom .features { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+#main .container .third-card .bottom .features .icon img{
+    max-width: 20px;
+}
+
+#main .container .third-card .bottom .features span { 
+    font-size: 11px;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+#main .container .third-card .bottom .agent { 
+    background: #F8F9FB;
+    padding: 8px 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#main .container .third-card .bottom .agent h5{
+    margin-bottom: 4px;
+}
+
+#main .container .third-card .bottom .agent .agent-details{
+    display: flex;
+}
+
+#main .container .third-card .bottom .agent .agent-details img{
+    max-width: 44px;
+    max-height: 44px;
+    border-radius: 50%;
+}
+
+#main .container .third-card .bottom .agent .agent-details .description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+}
+
+#main .container .third-card .bottom .agent .agent-details .description h4 { 
+
+}
+
+#main .container .third-card .bottom .agent .agent-details .description p { 
+
+}
+
+/* third card ends */
+
+/* fourth card */
+
+#main .container .fourth-card { 
+    border-radius: 10px;
+    background: #fff;
+    margin: 0 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+
+}
+
+#main .container .fourth-card .top { 
+
+}
+
+#main .container .fourth-card .top img { 
+    max-width: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#main .container .fourth-card .bottom { 
+
+}
+
+#main .container .fourth-card .bottom .description { 
+    padding: 8px 8px;
+
+}
+
+#main .container .fourth-card .bottom .description h6 { 
+    color: #424647;
+}
+
+#main .container .fourth-card .bottom .description h3 { 
+
+}
+
+#main .container .fourth-card .bottom .description p { 
+    font-size: 12px;
+}
+
+#main .container .fourth-card .bottom .features { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .container .fourth-card .bottom .features .icon img{
+    max-width: 20px;
+}
+
+#main .container .fourth-card .bottom .features span { 
+    font-size: 11px;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+#main .container .fourth-card .bottom .agent { 
+    background: #F8F9FB;
+    padding: 8px 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#main .container .fourth-card .bottom .agent h5{
+    margin-bottom: 4px;
+}
+
+#main .container .fourth-card .bottom .agent .agent-details{
+    display: flex;
+}
+
+#main .container .fourth-card .bottom .agent .agent-details img{
+    max-width: 44px;
+    max-height: 44px;
+    border-radius: 50%;
+}
+
+#main .container .fourth-card .bottom .agent .agent-details .description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+}
+
+#main .container .fourth-card .bottom .agent .agent-details .description h4 { 
+
+}
+
+#main .container .fourth-card .bottom .agent .agent-details .description p { 
+
+}
+
+/* fourth card ends */
